@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "parcel \"pug/**/!(_)*.pug\"",
+    "watch": "parcel watch \"pug/**/!(_)*.pug\"",
+    "build": "parcel build \"pug/**/!(_)*.pug\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.4",
+    "pug": "^2.0.4",
+    "stylus": "^0.54.7",
+    "typescript": "^3.6.4"
+  }
+}
